@@ -6,7 +6,7 @@ config_file = '../config/config.json'
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python upload_to_db.py <path_to_excel_file>")
+        print("Usage: python upload_excel_to_db.py <path_to_excel_file>")
         sys.exit(1)
 
     file_path = sys.argv[1]
