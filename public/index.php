@@ -19,7 +19,7 @@ $pageTables = [
     'insurance_policies' => 'InsurancePolicies'
 ];
 
-// get table name for current page
+// get table name for current page. set default to 'college_statistics'
 $tableName = $pageTables[$page] ?? $pageTables['college_statistics'];
 
 // get available columns and data

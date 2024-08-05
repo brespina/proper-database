@@ -3,6 +3,6 @@ return [
     'host' => 'localhost',
     'db' => 'postgres',
     'user' => 'postgres',
-    'pass' => 'ZHOUwenBOda3',
+    'pass' => 'your_password_here',
     'port' => 5432,
 ];
